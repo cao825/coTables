@@ -45,6 +45,7 @@ $('#myTableId').coTable( {
 
 A playground with example source and options testing can be found at [CraigOley.com/Home/coTables](http://CraigOley.com/Home/coTables)
 
+
 ## Settings / Options / Customizations
 
 Here are the current options available to customize the coTables plugin:
@@ -92,7 +93,7 @@ Here are the current options available to customize the coTables plugin:
       <td>exportIcon</td>
       <td>String</td>
       <td>""</td>
-      <td>Image path to custom export icon - default adds [Font Awesome Excel icon](http://fortawesome.github.io/Font-Awesome/icon/file-excel-o/)</td>
+      <td>Image path to custom export icon - default adds Font Awesome Excel icon (http://fortawesome.github.io/Font-Awesome/icon/file-excel-o/)</td>
     </tr>
     <tr>
       <td>showTableInfo</td>
@@ -104,13 +105,13 @@ Here are the current options available to customize the coTables plugin:
       <td>alternateRows</td>
       <td>Boolean</td>
       <td>true</td>
-      <td>Alternate row colors.  Attempts to use [Bootstrap table stripe](http://getbootstrap.com/css/#tables-striped), but will pick up custom alternating row colors.</td>
+      <td>Alternate row colors.  Attempts to use  Bootstrap table stripe (http://getbootstrap.com/css/#tables-striped), but will pick up custom alternating row colors.</td>
     </tr>
     <tr>
       <td>highlightHoverRow</td>
       <td>Boolean</td>
       <td>true</td>
-      <td>Highlight the row that the user is currently hovering their mouse over.  Attempts to use [Bootstrap table hover](http://getbootstrap.com/css/#tables-hover-rows), but you can style table-hover:hover css however best fits your need.</td>
+      <td>Highlight the row that the user is currently hovering their mouse over.  Attempts to use Bootstrap table hover (http://getbootstrap.com/css/#tables-hover-rows), but you can style table-hover:hover css however best fits your need.</td>
     </tr>
     <tr>
       <td>imgPath</td>
@@ -122,7 +123,27 @@ Here are the current options available to customize the coTables plugin:
 </table>
 
 
-## Support
+## Support & FAQ
+
+HTML syntax note: Tables must be of the structure:
+```
+<TABLE>
+  <THEAD>
+    <TR>
+      <TH>
+      ...
+      </TH>
+    </TR>
+  </THEAD>
+  <TBODY>
+    <TR>
+      <TD>
+      ...
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+```
 
 Support is currently handled through github issue requests.
 
