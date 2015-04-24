@@ -11,6 +11,21 @@ You may need to configure several settings to get coTables to work the way you w
 * exportIcon - Custom path to xlsx export icon (Not needed if you use Font Awesome)
 
 
+## External Package Notes
+
+As this is a [jQuery](//jquery.com) plugin, it assumes you are already familiar with [jQuery](//jquery.com) and its use.
+
+Web toolkits / plugins that are recommended to use with this plugin, but not included:
+* [Font Awesome](//fortawesome.github.io/Font-Awesome/)
+* [Bootstrap](//getbootstrap.com)
+
+Javascript libraries also included in this plugin:
+* [Blob.js](//github.com/eligrey/Blob.js/)
+* [Filesaver.js](//github.com/eligrey/FileSaver.js/)
+* [jszip.js](//stuk.github.io/jszip/)
+* [xlsx.js](//github.com/SheetJS/js-xlsx)
+
+
 ## Guide
 
 The most basic and simple usage of coTables is to simple call the jQuery function on your table object:
