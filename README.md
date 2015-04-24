@@ -47,6 +47,80 @@ A playground with example source and options testing can be found at [CraigOley.
 
 ## Settings / Options / Customizations
 
+Here are the current options available to customize the coTables plugin:
+<table>
+  <thead>
+    <tr>
+      <th>Setting</th>
+      <th>Type</th>
+      <th>Default</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>filterable</td>
+      <td>Boolean</td>
+      <td>true</td>
+      <td>Add filter boxes and hide non-matching filtered cells</td>
+    </tr>
+    <tr>
+      <td>filterCaseSensitive</td>
+      <td>Boolean</td>
+      <td>true</td>
+      <td>Case sensitive matching for filters</td>
+    </tr>
+    <tr>
+      <td>sortable</td>
+      <td>Boolean</td>
+      <td>true</td>
+      <td>Allow columns to be sorted</td>
+    </tr>
+    <tr>
+      <td>exportable</td>
+      <td>Boolean</td>
+      <td>true</td>
+      <td>Allow table to be exported to .xlsx</td>
+    </tr>
+    <tr>
+      <td>exportFileName</td>
+      <td>String</td>
+      <td>"coTableExport"</td>
+      <td>Custom file name for .xlsx export</td>
+    </tr>
+    <tr>
+      <td>exportIcon</td>
+      <td>String</td>
+      <td>""</td>
+      <td>Image path to custom export icon - default adds [Font Awesome Excel icon](http://fortawesome.github.io/Font-Awesome/icon/file-excel-o/)</td>
+    </tr>
+    <tr>
+      <td>showTableInfo</td>
+      <td>Boolean</td>
+      <td>true</td>
+      <td>Display table information in a table header row.  Currently includes row count.</td>
+    </tr>
+    <tr>
+      <td>alternateRows</td>
+      <td>Boolean</td>
+      <td>true</td>
+      <td>Alternate row colors.  Attempts to use [Bootstrap table stripe](http://getbootstrap.com/css/#tables-striped), but will pick up custom alternating row colors.</td>
+    </tr>
+    <tr>
+      <td>highlightHoverRow</td>
+      <td>Boolean</td>
+      <td>true</td>
+      <td>Highlight the row that the user is currently hovering their mouse over.  Attempts to use [Bootstrap table hover](http://getbootstrap.com/css/#tables-hover-rows), but you can style table-hover:hover css however best fits your need.</td>
+    </tr>
+    <tr>
+      <td>imgPath</td>
+      <td>String</td>
+      <td>"/css/coTableImg/"</td>
+      <td>Path to the coTableImg directory where you are storing images for the coTable library</td>
+    </tr>
+  </tbody>
+</table>
+
 
 ## Support
 
