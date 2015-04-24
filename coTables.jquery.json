@@ -1,0 +1,35 @@
+{
+	"name": "coTables",
+	"version": "0.0.1",
+	"title": "coTables HTML table filter, sort, export",
+	"description": "coTables is a jQuery plugin for HTML table sorting, filtering, .xlsx export, and more. By simply adding the plugin to your project, you can easily turn a normal static table into an interactive data set for your users.",
+	"homepage": "https://github.com/cao825/coTables",
+	"docs": "https://github.com/cao825/coTables",
+	"demo": "http://CraigOley.com/Home/coTables",
+	"download": "https://github.com/cao825/coTables",
+	"author": {
+		"name": "Craig Oley",
+		"url": "http://CraigOley.com"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "https://tldrlegal.com/license/mit-license"
+		}
+	],
+	"dependencies": {
+		"jquery": ">=1.7"
+	},
+	"keywords": [
+		"coTables",
+		"table",
+		"filtering",
+		"sorting",
+		"exporting",
+		"xlsx",
+		"grid",
+		"filter",
+		"sort",
+		"export"
+	]
+}
